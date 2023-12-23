@@ -1,8 +1,8 @@
-- name: Variables
-   host: localhost
+- name: Variables from PLAY level
+   hosts: localhost
    vars_files:
    - variable.yaml
    tasks:
    - name: check variables
      ansible.builtin.debug:
-     msg: "hi im in love to learn {{DEVOPS}}, this subject is {{tough and easy}},but it takes {{time}}""
+      msg: "hi im in love to learn {{DEVOPS}}, this subject is {{tough and easy}},but it takes {{time}}""
