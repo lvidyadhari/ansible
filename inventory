@@ -9,7 +9,7 @@
 localhost
 
 [localhost:vars]
-Course: "Devops"
+Course: "Devops from inventory"
 Subject: "tough and easy"
 Time: "confident"
 
