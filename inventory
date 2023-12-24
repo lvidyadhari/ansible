@@ -5,5 +5,11 @@
 [web]
 3.84.218.146
 
+[localhost]
+localhost
 
+[localhost:vars]
+Course: "Devops"
+Subject: "tough and easy"
+Time: "confident"
 
