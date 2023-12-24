@@ -1,13 +1,13 @@
 - name: variables from PLAY level
   hosts: localhost
-  vars_file:
-  - variables.yaml
+  vars_files:
+  - variable.yaml
   vars_prompt:
   - name: PERSON
     prompt: Please enter your name
     private: false
-  - name: PERSON
-    prompt: Please enter your name
+  - name: WISHES
+    prompt: Please enter your wishes
     private: false
   vars:
     PERSON: "Vidya from PLAY"

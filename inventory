@@ -12,7 +12,8 @@ localhost
 Course="Devops from inventory"
 Subject="tough and easy"
 Time="confident"
-PERSON: "Vidya from TASK"
-WISHES: "Morning from TASK"
+
+PERSON: "Vidya from inventory"
+WISHES: "Morning from inventory"
 
 
